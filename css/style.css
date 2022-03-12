@@ -1040,7 +1040,7 @@ footer{
 }
 
 
-/* AJUDA: Tiago */
+   /* AJUDA: Tiago */
             
             .header-ajuda {
                 width: 100%;
@@ -1125,7 +1125,7 @@ footer{
                 text-align: center;
                 color: #FFFFFF;
             }
-/*pq ela n interfere dentor da imagem ?*/
+            /*pq ela n interfere dentor da imagem ?*/
             
             form {
                 position: relative;
@@ -1188,8 +1188,6 @@ footer{
                 cursor: pointer;
                 border: NONE;
             }
-
-
 /* CADASTRO: Guilherme */
 
 .logo-pg {
