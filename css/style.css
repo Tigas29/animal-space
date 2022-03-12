@@ -52,8 +52,524 @@ body {
 .login,
 li {
     float: left;
-    padding: 0 15px;
-}
+    padding: 0 15px; /* COMO FUNCIONA: Tiago  */
+            
+            .foto-capa2 {
+                width: 100%;
+                height: 1000px;
+                padding: 10px 0%;
+                background-image: url('../imagens/fundo-capa.png');
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            
+            .header-funciona {
+                width: 100%;
+                font-size: 17px;
+            }
+            
+            .logo-funciona {
+                width: 250px;
+                height: 100px;
+                float: left;
+                margin-left: -18px;
+                margin-top: 15px;
+                background-image: url('../imagens/logo-branca.png');
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            
+            .header-funciona a {
+                color: #fff;
+                text-decoration: none;
+            }
+            
+            .header-funciona a:hover {
+                color: #F24D5D;
+            }
+            
+            .paginas-funciona {
+                float: left;
+                margin-top: 65px;
+            }
+            
+            .paginas-funciona a {
+                padding: 0 25px;
+                margin-top: 65px;
+                list-style-type: none;
+                margin-left: -20px;
+            }
+            
+            .login-funciona {
+                float: right;
+                margin-top: 65px;
+                margin-right: 80px;
+            }
+            
+            .login-funciona a {
+                margin-top: 65px;
+                list-style-type: none;
+                padding: 0 15px;
+            }
+            
+            #retangulorosa {
+                position: relative;
+                width: 585px;
+                height: 437px;
+                background: #F24D5D;
+                border-radius: 20px;
+                float: right;
+                top: 300px;
+                margin-right: 5%;
+                margin-left: 500px;
+            }
+            
+            .style-text {
+                margin-top: 31px;
+                color: #fff;
+                text-align: right;
+                font-size: 72px;
+                line-height: 108px;
+                font-weight: normal;
+                font-style: normal;
+                width: 421px;
+                height: 219px;
+                font-family: 'Reem Kufi';
+                margin-left: 132px;
+            }
+            
+            .info-text {
+                color: white;
+                text-align: right;
+                font-size: 30px;
+                line-height: 36px;
+                padding-right: 30px;
+                margin-top: 40px
+            }
+            
+            #parte2-info-necessarias {
+                text-align: center;
+            }
+            
+            .img-precisamos {
+                width: auto;
+                margin-top: 50px;
+            }
+            
+            .info-precisamos {
+                margin-top: 30px;
+                color: #F24D5D;
+                font-family: 'Reem Kufi';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 50px;
+                line-height: 75px;
+                text-align: center;
+            }
+            
+            .botao-agendar {
+                width: 211px;
+                height: 64.16px;
+                background: #F24D5D;
+                border-radius: 15px;
+                border: none;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 29px;
+                color: #FFFFFF;
+            }
+            
+            .botao-agendar a {
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+            
+            #incluso-hospedagem {
+                bottom: 400px;
+                width: 100%;
+                height: 801px;
+                background: #F24D5D;
+            }
+            
+            .oque-esta-incluso {
+                padding-top: 48px;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 50px;
+                line-height: 60px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            
+            .lista1 {
+                float: left;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 25px;
+                line-height: 60px;
+                color: #FFFFFF;
+                margin-left: 10%;
+                margin-top: 90px;
+            }
+            
+            .lista2 {
+                float: right;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 25px;
+                line-height: 60px;
+                color: #FFFFFF;
+                margin-top: 90px;
+                margin-right: 10%;
+            }
+            
+            #regras {
+                bottom: 400px;
+                width: 100%;
+                height: 750px;
+                background-color: #F0F1F1;
+            }
+            
+            .regras-da-casa {
+                font-family: 'Reem Kufi';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 50px;
+                line-height: 60px;
+                color: #F24D5D;
+                padding-top: 50px;
+                margin-left: 30px;
+                margin-bottom: 20px;
+            }
+            
+            .reto {
+                color: #57B855;
+            }
+            
+            .blocos {
+                align-items: center;
+                width: 100%;
+                height: 150PX;
+            }
+            
+            .bloco1-pgt {
+                margin-left: 6%;
+                width: 25%;
+            }
+            
+            .bloco2-pgt {
+                margin-left: 6%;
+                width: 25%;
+            }
+            
+            .bloco3-pgt {
+                margin-left: 6%;
+                width: 25%;
+            }
+            
+            .estrutura-area {
+                position: relative;
+                width: 100%;
+                clear: both;
+            }
+            
+            .venha-conhecer {
+                font-family: 'Reem Kufi';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 50px;
+                line-height: 60px;
+                padding: 30px 2%;
+                text-align: right;
+                color: #F24D5D;
+                margin-left: 50%;
+            }
+            
+            .Estrutura-button {
+                background: #F24D5D;
+                width: 197.37px;
+                height: 64.16px;
+                float: right;
+                margin-right: 5%;
+                border: none;
+                font-family: 'Lato';
+                font-size: 24px;
+                line-height: 29px;
+                color: #FFFFFF;
+            }
+            
+            .Estrutura-button a {
+                text-decoration: none;
+                color: #FFFFFF;
+            }
+} /* COMO FUNCIONA: Tiago  */
+            
+            .foto-capa2 {
+                width: 100%;
+                height: 1000px;
+                padding: 10px 0%;
+                background-image: url('../imagens/fundo-capa.png');
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            
+            .header-funciona {
+                width: 100%;
+                font-size: 17px;
+            }
+            
+            .logo-funciona {
+                width: 250px;
+                height: 100px;
+                float: left;
+                margin-left: -18px;
+                margin-top: 15px;
+                background-image: url('../imagens/logo-branca.png');
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            
+            .header-funciona a {
+                color: #fff;
+                text-decoration: none;
+            }
+            
+            .header-funciona a:hover {
+                color: #F24D5D;
+            }
+            
+            .paginas-funciona {
+                float: left;
+                margin-top: 65px;
+            }
+            
+            .paginas-funciona a {
+                padding: 0 25px;
+                margin-top: 65px;
+                list-style-type: none;
+                margin-left: -20px;
+            }
+            
+            .login-funciona {
+                float: right;
+                margin-top: 65px;
+                margin-right: 80px;
+            }
+            
+            .login-funciona a {
+                margin-top: 65px;
+                list-style-type: none;
+                padding: 0 15px;
+            }
+            
+            #retangulorosa {
+                position: relative;
+                width: 585px;
+                height: 437px;
+                background: #F24D5D;
+                border-radius: 20px;
+                float: right;
+                top: 300px;
+                margin-right: 5%;
+                margin-left: 500px;
+            }
+            
+            .style-text {
+                margin-top: 31px;
+                color: #fff;
+                text-align: right;
+                font-size: 72px;
+                line-height: 108px;
+                font-weight: normal;
+                font-style: normal;
+                width: 421px;
+                height: 219px;
+                font-family: 'Reem Kufi';
+                margin-left: 132px;
+            }
+            
+            .info-text {
+                color: white;
+                text-align: right;
+                font-size: 30px;
+                line-height: 36px;
+                padding-right: 30px;
+                margin-top: 40px
+            }
+            
+            #parte2-info-necessarias {
+                text-align: center;
+            }
+            
+            .img-precisamos {
+                width: auto;
+                margin-top: 50px;
+            }
+            
+            .info-precisamos {
+                margin-top: 30px;
+                color: #F24D5D;
+                font-family: 'Reem Kufi';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 50px;
+                line-height: 75px;
+                text-align: center;
+            }
+            
+            .botao-agendar {
+                width: 211px;
+                height: 64.16px;
+                background: #F24D5D;
+                border-radius: 15px;
+                border: none;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 29px;
+                color: #FFFFFF;
+            }
+            
+            .botao-agendar a {
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+            
+            #incluso-hospedagem {
+                bottom: 400px;
+                width: 100%;
+                height: 801px;
+                background: #F24D5D;
+            }
+            
+            .oque-esta-incluso {
+                padding-top: 48px;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 50px;
+                line-height: 60px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            
+            .lista1 {
+                float: left;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 25px;
+                line-height: 60px;
+                color: #FFFFFF;
+                margin-left: 10%;
+                margin-top: 90px;
+            }
+            
+            .lista2 {
+                float: right;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 25px;
+                line-height: 60px;
+                color: #FFFFFF;
+                margin-top: 90px;
+                margin-right: 10%;
+            }
+            
+            #regras {
+                bottom: 400px;
+                width: 100%;
+                height: 750px;
+                background-color: #F0F1F1;
+            }
+            
+            .regras-da-casa {
+                font-family: 'Reem Kufi';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 50px;
+                line-height: 60px;
+                color: #F24D5D;
+                padding-top: 50px;
+                margin-left: 30px;
+                margin-bottom: 20px;
+            }
+            
+            .reto {
+                color: #57B855;
+            }
+            
+            .blocos {
+                align-items: center;
+                width: 100%;
+                height: 150PX;
+            }
+            
+            .bloco1-pgt {
+                margin-left: 6%;
+                width: 25%;
+            }
+            
+            .bloco2-pgt {
+                margin-left: 6%;
+                width: 25%;
+            }
+            
+            .bloco3-pgt {
+                margin-left: 6%;
+                width: 25%;
+            }
+            
+            .estrutura-area {
+                position: relative;
+                width: 100%;
+                clear: both;
+            }
+            
+            .venha-conhecer {
+                font-family: 'Reem Kufi';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 50px;
+                line-height: 60px;
+                padding: 30px 2%;
+                text-align: right;
+                color: #F24D5D;
+                margin-left: 50%;
+            }
+            
+            .Estrutura-button {
+                background: #F24D5D;
+                width: 197.37px;
+                height: 64.16px;
+                float: right;
+                margin-right: 5%;
+                border: none;
+                font-family: 'Lato';
+                font-size: 24px;
+                line-height: 29px;
+                color: #FFFFFF;
+            }
+            
+            .Estrutura-button a {
+                text-decoration: none;
+                color: #FFFFFF;
+            }
 
 .header-inicio .paginas,
 .login,
@@ -528,337 +1044,265 @@ h2 {
 }
 
 
-/* COMO FUNCIONA: Tiago  */
-
-.foto-capa2 {
-    width: 100%;
-    height: 1000px;
-    padding: 10px 0%;
-    background-image: url('../imagens/fundo-capa.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.header-funciona {
-    width: 100%;
-    font-size: 17px;
-}
-
-.logo-funciona {
-    width: 250px;
-    height: 100px;
-    float: left;
-    margin-left: -18px;
-    margin-top: 15px;
-    background-image: url('../imagens/logo-branca.png');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.header-funciona a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.header-funciona a:hover {
-    color: #F24D5D;
-}
-
-.paginas-funciona {
-    float: left;
-    margin-top: 65px;
-}
-
-.paginas-funciona a {
-    padding: 0 25px;
-    margin-top: 65px;
-    list-style-type: none;
-    margin-left: -20px;
-}
-
-.login-funciona {
-    float: right;
-    margin-top: 65px;
-    margin-right: 80px;
-}
-
-.login-funciona a {
-    margin-top: 65px;
-    list-style-type: none;
-    padding: 0 15px;
-}
-
-#retangulorosa {
-    position: absolute;
-    width: 585px;
-    height: 437px;
-    background: #F24D5D;
-    border-radius: 20px;
-    top: 264px;
-    margin-left: 55%;
-}
-
-.style-text {
-    margin-top: 31px;
-    color: #fff;
-    text-align: right;
-    font-size: 72px;
-    line-height: 108px;
-    font-weight: normal;
-    font-style: normal;
-    width: 421px;
-    height: 219px;
-    font-family: 'Reem Kufi';
-    margin-left: 132px;
-}
-
-.info-text {
-    color: white;
-    text-align: right;
-    font-size: 30px;
-    line-height: 36px;
-    padding-right: 30px;
-    font-weight: 500;
-    margin-top: 40px
-}
-
-#parte2-info-necessarias {
-    text-align: center;
-    margin-top: 50px;
-}
-
-.img-precisamos {
-    width: auto;
-    margin-top: 82px
-}
-
-.info-precisamos {
-    color: #F24D5D;
-    font-family: 'Reem Kufi';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 75px;
-    text-align: center;
-}
-
-.botao-agendar {
-    width: 211px;
-    height: 64.16px;
-    background: #F24D5D;
-    border-radius: 15px;
-    border: none;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 29px;
-    color: #FFFFFF;
-}
-
-.botao-agendar a {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-#incluso-hospedagem {
-    margin-top: 45px;
-    width: 100%;
-    height: 801px;
-    left: 0px;
-    top: 1937px;
-    background: #F24D5D;
-}
-
-.oque-esta-incluso {
-    padding-top: 48px;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 60px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.lista1 {
-    float: left;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 60px;
-    color: #FFFFFF;
-    margin-left: 10%;
-    margin-top: 90px;
-}
-
-.lista2 {
-    float: right;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 60px;
-    color: #FFFFFF;
-    margin-top: 90px;
-    margin-right: 10%;
-}
-
-#regras {
-    width: 100%;
-    height: 750px;
-    background-color: #F0F1F1;
-}
-
-.regras-da-casa {
-    font-family: 'Reem Kufi';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 60px;
-    color: #F24D5D;
-    padding-top: 50px;
-    margin-left: 30px;
-    margin-bottom: 20px;
-}
-
-.reto {
-    color: #57B855;
-}
-
-.blocos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.bloco1-pgt {
-    margin-left: 40 px;
-    width: 410px;
-    height: 340px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    float: left;
-}
-
-.bloco2-pgt {
-    margin-left: 40px;
-    width: 410px;
-    height: 340px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    float: left;
-}
-
-.bloco3-pgt {
-    margin-left: 40px;
-    width: 410px;
-    height: 340px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    float: left;
-}
-
-.estrutura-area {
-    width: 100%;
-    clear: both;
-}
-
-.venha-conhecer {
-    font-family: 'Reem Kufi';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    line-height: 60px;
-    padding: 30px 2%;
-    text-align: right;
-    color: #F24D5D;
-    margin-left: 50%;
-}
-
-.Estrutura-button {
-    background: #F24D5D;
-    width: 197.37px;
-    height: 64.16px;
-    margin-top: -10px;
-    margin-left: 85%;
-    border-radius: 15px;
-    border: none;
-    font-family: 'Lato';
-    font-size: 24px;
-    line-height: 29px;
-    color: #FFFFFF;
-}
-
-.Estrutura-button a {
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
-@media screen and (max-width: 1440px) {
-    .blocos {
-        margin-left: 4%;
-    }
-    .bloco1-pgt {
-        margin-left: 0px;
-    }
-    .bloco2-pgt {
-        margin-left: 20px;
-    }
-    .bloco3-pgt {
-        margin-left: 20px;
-    }
-    #retangulorosa {
-        margin-left: 55%;
-    }
-    .venha-conhecer {
-        margin-left: 42%;
-    }
-    .Estrutura-button {
-        margin-left: 81%;
-    }
-}
-
-@media screen and (max-width: 1390px) {
-    .blocos {
-        margin-left: 0%;
-    }
-    .blocos img {
-        margin: 0 0px;
-    }
-    .bloco1-pgt {
-        width: 33%;
-        float: left;
-        height: auto;
-    }
-    .bloco2-pgt {
-        width: 33%;
-        height: auto;
-        float: left;
-    }
-    .bloco3-pgt {
-        width: 33%;
-        height: auto;
-        float: left;
-    }
-    #retangulorosa {
-        margin-left: 40%;
-    }
-    .venha-conhecer {
-        margin-left: 40%;
-    }
-    .Estrutura-button {
-        margin-left: 80%;
-    }
-}
+ /* COMO FUNCIONA: Tiago  */
+            
+            .foto-capa2 {
+                width: 100%;
+                height: 1000px;
+                padding: 10px 0%;
+                background-image: url('../imagens/fundo-capa.png');
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            
+            .header-funciona {
+                width: 100%;
+                font-size: 17px;
+            }
+            
+            .logo-funciona {
+                width: 250px;
+                height: 100px;
+                float: left;
+                margin-left: -18px;
+                margin-top: 15px;
+                background-image: url('../imagens/logo-branca.png');
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            
+            .header-funciona a {
+                color: #fff;
+                text-decoration: none;
+            }
+            
+            .header-funciona a:hover {
+                color: #F24D5D;
+            }
+            
+            .paginas-funciona {
+                float: left;
+                margin-top: 65px;
+            }
+            
+            .paginas-funciona a {
+                padding: 0 25px;
+                margin-top: 65px;
+                list-style-type: none;
+                margin-left: -20px;
+            }
+            
+            .login-funciona {
+                float: right;
+                margin-top: 65px;
+                margin-right: 80px;
+            }
+            
+            .login-funciona a {
+                margin-top: 65px;
+                list-style-type: none;
+                padding: 0 15px;
+            }
+            
+            #retangulorosa {
+                position: relative;
+                width: 585px;
+                height: 437px;
+                background: #F24D5D;
+                border-radius: 20px;
+                float: right;
+                top: 300px;
+                margin-right: 5%;
+                margin-left: 500px;
+            }
+            
+            .style-text {
+                margin-top: 31px;
+                color: #fff;
+                text-align: right;
+                font-size: 72px;
+                line-height: 108px;
+                font-weight: normal;
+                font-style: normal;
+                width: 421px;
+                height: 219px;
+                font-family: 'Reem Kufi';
+                margin-left: 132px;
+            }
+            
+            .info-text {
+                color: white;
+                text-align: right;
+                font-size: 30px;
+                line-height: 36px;
+                padding-right: 30px;
+                margin-top: 40px
+            }
+            
+            #parte2-info-necessarias {
+                text-align: center;
+            }
+            
+            .img-precisamos {
+                width: auto;
+                margin-top: 50px;
+            }
+            
+            .info-precisamos {
+                margin-top: 30px;
+                color: #F24D5D;
+                font-family: 'Reem Kufi';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 50px;
+                line-height: 75px;
+                text-align: center;
+            }
+            
+            .botao-agendar {
+                width: 211px;
+                height: 64.16px;
+                background: #F24D5D;
+                border-radius: 15px;
+                border: none;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 29px;
+                color: #FFFFFF;
+            }
+            
+            .botao-agendar a {
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+            
+            #incluso-hospedagem {
+                bottom: 400px;
+                width: 100%;
+                height: 801px;
+                background: #F24D5D;
+            }
+            
+            .oque-esta-incluso {
+                padding-top: 48px;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 50px;
+                line-height: 60px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            
+            .lista1 {
+                float: left;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 25px;
+                line-height: 60px;
+                color: #FFFFFF;
+                margin-left: 10%;
+                margin-top: 90px;
+            }
+            
+            .lista2 {
+                float: right;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 25px;
+                line-height: 60px;
+                color: #FFFFFF;
+                margin-top: 90px;
+                margin-right: 10%;
+            }
+            
+            #regras {
+                bottom: 400px;
+                width: 100%;
+                height: 750px;
+                background-color: #F0F1F1;
+            }
+            
+            .regras-da-casa {
+                font-family: 'Reem Kufi';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 50px;
+                line-height: 60px;
+                color: #F24D5D;
+                padding-top: 50px;
+                margin-left: 30px;
+                margin-bottom: 20px;
+            }
+            
+            .reto {
+                color: #57B855;
+            }
+            
+            .blocos {
+                align-items: center;
+                width: 100%;
+                height: 150PX;
+            }
+            
+            .bloco1-pgt {
+                margin-left: 6%;
+                width: 25%;
+            }
+            
+            .bloco2-pgt {
+                margin-left: 6%;
+                width: 25%;
+            }
+            
+            .bloco3-pgt {
+                margin-left: 6%;
+                width: 25%;
+            }
+            
+            .estrutura-area {
+                position: relative;
+                width: 100%;
+                clear: both;
+            }
+            
+            .venha-conhecer {
+                font-family: 'Reem Kufi';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 50px;
+                line-height: 60px;
+                padding: 30px 2%;
+                text-align: right;
+                color: #F24D5D;
+                margin-left: 50%;
+            }
+            
+            .Estrutura-button {
+                background: #F24D5D;
+                width: 197.37px;
+                height: 64.16px;
+                float: right;
+                margin-right: 5%;
+                border: none;
+                font-family: 'Lato';
+                font-size: 24px;
+                line-height: 29px;
+                color: #FFFFFF;
+            }
+            
+            .Estrutura-button a {
+                text-decoration: none;
+                color: #FFFFFF;
+            }
 
 
 /* ESTRUTURA: Bruno Nogueira */
