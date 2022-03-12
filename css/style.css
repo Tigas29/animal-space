@@ -1041,154 +1041,90 @@ footer{
 
 
 /* AJUDA: Tiago */
-
-.header-ajuda {
-    width: 100%;
-    font-size: 17px;
-}
-
-.banner-ajuda {
-    width: 100%;
-    height: 1000px;
-    padding: 10px 0%;
-    background-image: url('../imagens/capa-ajuda.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.logo-ajuda {
-    width: 250px;
-    height: 100px;
-    float: left;
-    margin-left: -18px;
-    margin-top: 15px;
-    background-image: url('../imagens/logo-branca.png');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.header-ajuda a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.header-ajuda a:hover {
-    color: #F24D5D;
-}
-
-.paginas-contato {
-    float: left;
-    margin-top: 65px;
-}
-
-.paginas-contato a {
-    padding: 0 25px;
-    margin-top: 65px;
-    list-style-type: none;
-    margin-left: -20px;
-}
-
-.login-contato {
-    float: right;
-    margin-top: 65px;
-    margin-right: 80px;
-}
-
-.login-contato a {
-    margin-top: 65px;
-    list-style-type: none;
-    padding: 0 15px;
-}
-
-#retangulo {
-    position: relative;
-    width: 535px;
-    height: 316px;
-    top: -380px;
-    margin-left: 10%;
-    background: #FFCD1E;
-    margin-top: -316px;
-}
-
-.text {
-    position: relative;
-    width: 370px;
-    left: 80px;
-    top: 60px;
-    font-family: 'Reem Kufi';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 64px;
-    line-height: 96px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-
-/*pq ela n interfere dentor da imagem ?*/
-
-form {
-    position: absolute;
-    width: 417px;
-    height: 658px;
-    left: 55%;
-    top: 220px;
-}
-
-.input-ajuda,
-textarea {
-    background: rgba(196, 196, 196, 0.5);
-    border-radius: 8px;
-    width: 410.79px;
-    height: 69.19px;
-    display: block;
-    margin: 30px auto;
-    padding-left: 10px;
-    border: none;
-    color: white;
-}
-
-.fale-conosco-form {
-    text-align: center;
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 43px;
-    color: #FFCD1E;
-}
-
-textarea {
-    height: 180px;
-    padding-top: 10px;
-}
-
-.input-ajuda::placeholder {
-    color: #fff;
-    font-family: lato;
-}
-
-#mensagem {
-    color: #fff;
-    font-family: lato;
-}
-
-button {
-    display: block;
-    margin: -20px auto;
-    background: #FFCD1E;
-    border-radius: 8px;
-    width: 122px;
-    height: 44px;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    color: #000000;
-    cursor: pointer;
-    border: NONE;
-}
+            
+            .header-ajuda {
+                width: 100%;
+                font-size: 17px;
+            }
+            
+            .banner-ajuda {
+                width: 100%;
+                height: 1000px;
+                padding: 10px 0%;
+                background-image: url('../imagens/capa-ajuda.png');
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            
+            .logo-ajuda {
+                width: 250px;
+                height: 100px;
+                float: left;
+                margin-left: -18px;
+                margin-top: 15px;
+                background-image: url('../imagens/logo-branca.png');
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            
+            .header-ajuda a {
+                color: #fff;
+                text-decoration: none;
+            }
+            
+            .header-ajuda a:hover {
+                color: #F24D5D;
+            }
+            
+            .paginas-contato {
+                float: left;
+                margin-top: 65px;
+            }
+            
+            .paginas-contato a {
+                padding: 0 25px;
+                margin-top: 65px;
+                list-style-type: none;
+                margin-left: -20px;
+            }
+            
+            .login-contato {
+                float: right;
+                margin-top: 65px;
+                margin-right: 80px;
+            }
+            
+            .login-contato a {
+                margin-top: 65px;
+                list-style-type: none;
+                padding: 0 10px;
+            }
+            
+            #retangulo {
+                position: relative;
+                width: 30%;
+                height: 316px;
+                min-width: 300px;
+                top: 150px;
+                margin-left: 3%;
+                background: #FFCD1E;
+                margin-top: -316px;
+            }
+            
+            .text {
+                position: relative;
+                margin-left: auto;
+                margin-right: auto;
+                font-family: 'Reem Kufi';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 400%;
+                line-height: 96px;
+                text-align: center;
+                color: #FFFFFF;
+            }
 
 
 /* CADASTRO: Guilherme */
