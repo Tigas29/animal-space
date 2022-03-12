@@ -1097,30 +1097,31 @@ footer{
                 list-style-type: none;
                 padding: 0 10px;
             }
-            
-            #retangulo {
-                position: relative;
-                width: 30%;
-                height: 316px;
-                min-width: 300px;
-                top: 150px;
-                margin-left: 3%;
-                background: #FFCD1E;
-                margin-top: -316px;
-            }
-            
-            .text {
-                position: relative;
-                margin-left: auto;
-                margin-right: auto;
-                font-family: 'Reem Kufi';
-                font-style: normal;
-                font-weight: normal;
-                font-size: 400%;
-                line-height: 96px;
-                text-align: center;
-                color: #FFFFFF;
-            }
+
+              #retangulo {
+            position: relative;
+            width: 30%;
+            height: 316px;
+            min-width: 300px;
+            top: 150px;
+            margin-left: 3%;
+            background: #FFCD1E;
+        }
+        
+        .text {
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: 'Reem Kufi';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 400%;
+            line-height: 96px;
+            text-align: center;
+            color: #FFFFFF;
+            max-width: 300px;
+            margin-top: 100px;
+        }
             /*pq ela n interfere dentor da imagem ?*/
             
             form {
