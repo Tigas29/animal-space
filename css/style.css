@@ -1185,108 +1185,125 @@ footer{
                 cursor: pointer;
                 border: NONE;
             }
-/* CADASTRO: Guilherme */
+/* CADASTRO: Guilherme */ 
 
-.logo-pg {
-    text-align: center;
+.pagina-de-cadastro{
+	text-align: center;
 }
 
 .logoanimal {
-    height: 100px;
-    width: 140px;
-    margin-top: 10px;
+	height: 100px;
+	width: 140px;
+	margin-top: 10px;
 }
 
-.pg-cadastro {
-    background-color: #FFF;
-    text-align: center;
-    padding: 80px 0;
-    border-radius: 10px;
-    width: 25%;
-    height: auto;
-    margin-left: 37.5%;
-    margin-top: 30px;
+.quadro{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 
-.pg-cadastro h1 {
-    font-family: 'Reem Kufi', sans-serif;
-    margin-top: -50px;
+.pg-cadastro{
+	background-color: #FFF;
+	text-align: center;
+	padding: 80px 0;
+	border-radius: 10px;
+	width: 25%;
+	min-width: 20%;
+	height: auto;
+	margin-top: 30px;	
 }
 
-.pg-cadastro .input {
-    padding: 20px 10px;
-    background-color: #dc143c;
-    font-size: 15px;
-    border: none;
-    color: #FFF;
-    border-radius: 10px;
-    width: 85%;
+.pg-cadastro h1{
+	font-family: 'Reem Kufi', sans-serif;
+	margin-top: -50px;
 }
 
-#cadastro {
-    font-family: 'Reem Kufi', sans-serif;
-    background-color: #dc143c;
-    text-align: center;
-    padding: 10px;
-    width: 50%;
-    border-radius: 20px;
-    color: #FFF;
-    cursor: pointer;
-    margin-top: 10px;
-    margin-bottom: 0px;
+.pg-cadastro .input{
+	padding: 20px 10px;
+	background-color: #dc143c;
+	font-size: 15px;
+	border: none;
+	color: #FFF;
+	border-radius: 10px;
+	width: 85%;
 }
 
-#cadastro:hover {
-    color: #dc143c;
-    background-color: white;
-    border: 1px solid #dc143c;
-    ;
+#cadastro{
+	font-family: 'Reem Kufi', sans-serif;
+	background-color: #dc143c;
+	text-align: center;
+	padding: 10px;
+	width: 50%;
+	border-radius: 20px;
+	color: #FFF;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+	
+#cadastro:hover{
+	color: #dc143c;
+	background-color: white;
+	border: 1px solid #dc143c;;
 }
 
-.pg-cadastro h3 {
-    font-family: 'Lato', sans-serif;
-    margin: 10px 0;
+.pg-cadastro h3{
+	font-family: 'Lato', sans-serif;
+	margin: 10px 0;
 }
 
-::-webkit-input-placeholder {
-    font-family: 'Lato', sans-serif;
-    color: black;
-    opacity: 0.8;
+::-webkit-input-placeholder{
+	font-family: 'Lato', sans-serif;
+	color: black; 
+	opacity: 0.8;
 }
 
-.icon-cadastro {
-    width: 100%;
+.icon-cadastro{width: 100%;}
+
+.icon-cadastro img{		
+	width: 50px;
+	cursor: pointer;
+	height: 50px;
+	margin: 0 15px;
+}	
+	
+#login{
+	border: none;
+	cursor: pointer;
+	clear: both;
+	margin-top: 20px;
+	color: black;
+	text-decoration: none;
 }
 
-.icon-cadastro img {
-    width: 50px;
-    cursor: pointer;
-    height: 50px;
-    margin: 0 15px;
-}
+@media screen and (min-width: 480px){	
+	@media screen and (max-width: 1100px){	
+		.pg-cadastro{
+			width: 70%;
+		}
+	}
+}	
 
-#login {
-    border: none;
-    cursor: pointer;
-    clear: both;
-    margin-top: 20px;
-    color: black;
-    text-decoration: none;
-}
+@media screen and (min-width: 1101px){
+	@media screen and (max-width: 1440px){	
+		.logoanimal {
+			margin-top: 2px;
+		}
 
-@media screen and (max-width: 1440px) {
-    .logoanimal {
-        margin-top: 2px;
-    }
-    .pg-cadastro {
-        height: 83%;
-        margin-top: 5px;
-    }
-    .pg-cadastro h1 {
-        margin-top: -65px;
-    }
-}
+		.pg-cadastro{
+			width: 35%;
+			min-width: 40%;
+			height: 83%;
+			margin-top: 10px;
+		}
 
+		.pg-cadastro h1{
+			margin-top: -65px;
+		}
+	}
+}	
 
 /* LOGIN: Gabriel */
 
