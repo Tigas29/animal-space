@@ -995,7 +995,7 @@ footer{
 }
 
 .img-Elipse {
-    position: relative;
+    position: absolute;
     width: 900%;
     height: 700px;
     margin-top: -558px;
