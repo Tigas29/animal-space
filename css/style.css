@@ -946,9 +946,10 @@ footer{
     }
 }
 
-/* ESTRUTURA: Bruno Nogueira */
+/* ESTRUTURA: Bruno Nogueira // Bruno Costa */
 
 .foto-capa-estrutura {
+    position: relative;
     width: 100%;
     height: 1000px;
     padding: 10px 0%;
@@ -959,6 +960,8 @@ footer{
 }
 
 .header-estrutura {
+    position: relative;
+    z-index: 9;
     width: 100%;
     font-size: 17px;
 }
@@ -1009,10 +1012,10 @@ footer{
 }
 
 #retangulo-capa-pgt {
-    width: 585px;
-    height: 350px;
-    margin-top: -700px;
-    margin-left: 10%;
+    width: 40%;
+    min-width: 450px;
+    margin-top: 250px;
+    margin-left: 4%;
     background: #FF8E36;
     border-radius: 10px;
 }
@@ -1028,26 +1031,29 @@ footer{
 }
 
 .introducao {
-    margin-top: 350px;
+    position: relative;
     width: 100%;
     background-color: #F0F1F1;
-    height: 1000px;
+    height: 300px;
+}
+
+.width1{
+    float: left;
+    width: 50%;
 }
 
 .img-Elipse {
-    position: absolute;
-    width: 900px;
+    position: relative;
+    width: 850px;
     height: 700px;
-    margin-top: -558px;
     z-index: 1;
 }
 
 .Elipse-text {
     position: relative;
-    width: 683px;
-    height: 558px;
-    top: 80px;
-    left: 5%;
+    width: 150%;
+    margin-top: -665px;
+    margin-left: 40px;
     font-family: 'Lato';
     font-size: 24px;
     line-height: 29px;
@@ -1055,19 +1061,26 @@ footer{
     z-index: 2;
 }
 
+.width2{
+    float: left;
+    width: 50%;
+}
+
 .img-cao-flor {
     position: relative;
-    width: 450px;
-    height: 650px;
-    margin-top: -500px;
-    margin-left: 61%;
+    max-width: 50%;
+    min-width: 400px;
+    height: auto; 
+    margin-left: 25%;
+    margin-top: 100px;
     z-index: 1;
 }
 
 .hotel {
+    position: relative;
     width: 100%;
     background-color: #F0F1F1;
-    height: 1000px;
+    height: 1350px;
 }
 
 .hotel h1 {
@@ -1076,7 +1089,12 @@ footer{
     font-size: 40px;
     line-height: 96px;
     color: #4393D8;
-    margin-top: -100px;
+    padding-top: 500px;
+}
+
+.width3{
+    float: left;
+    width: 50%;
 }
 
 .hotel-text {
@@ -1087,15 +1105,22 @@ footer{
     line-height: 45px;
     letter-spacing: 0.005em;
     color: #000000;
-    float: left;
     margin-top: 150px;
-    margin-left: 7%;
+    margin-left: 10%;
 }
 
-.img-Elipse7 img {
-    float: right;
-    margin-top: -550px;
-    margin-left: 60%;
+.width4{
+    float: left;
+    width: 50%;
+}
+
+.img-Elipse7 {
+    width: 100%;
+    height: 700px;
+    background-image: url('../imagens/Ellipse\ 7.png');
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .img-Elipse7 img {
@@ -1107,47 +1132,54 @@ footer{
     clear: both;
     width: 100%;
     background-color: #F0F1F1;
-    height: 950px;
+    height: auto;
 }
 
 .lazer {
+    width: 100%;
     text-align: center;
     margin-top: -80px;
 }
 
 .lazer img {
-    width: auto;
+    width: 550px;
     height: auto;
 }
 
 .parque {
+    width: 50%;
     float: left;
-    padding: 0 4.5%;
 }
 
 .parque img {
-    width: auto;
+    width: 550px;
     height: auto;
+    float: right;
+    padding: 0 2%;
 }
 
 .piscina {
-    float: right;
-    padding: 0 4.5%;
+    width: 50%;
+    float: left;
 }
 
 .piscina img {
-    width: auto;
+    width: 550px;
     height: auto;
+    padding: 0 2%;
 }
 
 .suporte {
-    clear: both;
     font-family: 'Lato';
     font-size: 40px;
     line-height: 60px;
     text-align: center;
     color: #4393D8;
     margin-top: 350px;
+}
+
+.botao_ajuda{
+    padding: 10px 0 40px 0;
 }
 
 .duvida button {
@@ -1164,9 +1196,32 @@ footer{
     color: #FFF;
 }
 
-@media screen and (max-width: 1390px) {
-    .piscina {
-        margin-top: -316px;
+@media only screen and (max-width:720px){
+    #retangulo-capa-pgt {
+        min-width: 370px;
+    }
+
+    .estilo-texto-capa-pgt{
+        font-size: 55px
+    }
+
+    .img-cao-flor {
+        width: 35%;
+        padding: 0px 2%;
+        margin-left: 0%;
+        margin-top: 50px;
+    }
+
+    .lazer img{
+        width: 350px;
+    }
+    
+    .parque img{
+        width: 350px;
+    }
+
+    .piscina img{
+        width: 350px;
     }
 }
 
@@ -1178,8 +1233,99 @@ footer{
     nav.mobile-menu-branco{
         display: block;
     }
-}
 
+    .introducao {
+        height: auto;
+        margin-top: 550px;
+    }
+
+    .hotel {
+        height: auto;
+    }
+
+    .width1{
+        float: none;
+        width: 100%;
+    }
+
+    .img-Elipse {
+        display: none;
+    }
+
+    .Elipse-text {
+        width: 100%;
+        padding: 25px 2%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .width2{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .img-cao-flor {
+        width: 40%;
+        padding: 0px 2%;
+        margin-left: 0%;
+        margin-top: 50px;
+    }
+
+    .img-Elipse7 {
+        display: none;
+    }
+
+    .width3{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hotel-text {
+        float: none;
+        margin-left: 0%;
+        margin-top: 20px;
+    }
+
+    .hotel h1 {
+       padding-top: 20px;
+    }
+    
+    .duvida{
+        padding-top: 150px;
+    }
+
+    .lazer {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .parque {
+        width: 100%;
+        text-align: center;
+    }
+
+    .parque img {
+        float: none;
+        padding: 0 0%;
+    }
+          
+    .piscina {
+        width: 100%;
+        text-align: center;
+        float: none;
+    }    
+
+    .piscina img {
+        padding: 0 0%;
+    }
+
+    .suporte{
+        margin-top: 20px;
+        height: auto;
+    }    
+}
 
    /* AJUDA: Tiago */
             
@@ -1564,4 +1710,4 @@ footer{
 			margin-top: 10px;
 		}	
 	}
-}	
+}
