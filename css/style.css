@@ -1566,16 +1566,7 @@ footer{
                 border: NONE;
             }
 
-            @media only screen and (max-width:1100px){
-                .paginas-contato, .login-contato{
-                    display: none;
-                }
-                        
-                nav.mobile-menu-branco{
-                    display: block;
-                }
-            }
-
+           
 @media only screen and (max-width:480px) {
     .header-ajuda {
         display: none;
@@ -1666,8 +1657,7 @@ footer{
             display: flex;
             background: #FFCD1E;
         }
-    }
-    .text {
+	    .text {
         position: relative;
         font-size: 50px;
         line-height: 60px;
@@ -1675,6 +1665,8 @@ footer{
         max-width: 90%;
         padding-top: 0;
         left: 0;
+    }
+    
     }
 }
 
