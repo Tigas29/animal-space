@@ -1321,6 +1321,7 @@ footer{
             
     nav.mobile-menu-branco{
         display: block;
+	 z-index: 9;
     }
 
     .introducao {
