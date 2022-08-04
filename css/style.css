@@ -1,4 +1,3 @@
-/* INICIAL: Bruno Costa */
 *{
 	border: 0;
 	margin: 0;
@@ -87,7 +86,7 @@ nav.mobile-menu ul{
 	top: 120px;
 	border-bottom:4px solid #F24D5D;
 	position: absolute;
-    z-index: 5;
+    	z-index: 5;
 	text-align: center;
 	background-color: #F0F1F1;
 }
@@ -224,8 +223,7 @@ section.explicacao{
 	width: 180px;
 	height: 64px;
 	text-align: center;	
-	margin-top: 25px;
-    margin-bottom: 25px;
+	margin: 30px auto;
 	line-height: 60px;
 	border-radius: 10px;
 	background-color: #F24D5D;
@@ -360,7 +358,12 @@ section.visitar{
 	font-family: 'Reem Kufi';
 }
 
-.botao-home{text-align: center;}
+.botao-home{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	text-align: center;
+}
 
 .botao-visitar{
 	width: 280px;
@@ -753,6 +756,13 @@ footer{
         line-height: 75px;
         text-align: center;
     }
+
+    .botao-agenda-princi{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
     
     .botao-agendar {
         width: 211px;
@@ -760,7 +770,6 @@ footer{
         background: #F24D5D;
         border-radius: 15px;
         border: none;
-        margin-top: 50px;
         margin-bottom: 50px;
         font-family: 'Lato';
         font-style: normal;
@@ -768,8 +777,8 @@ footer{
         font-size: 24px;
         line-height: 29px;
         color: #FFFFFF;
-    }
-    
+}
+        
     .botao-agendar a {
         color: #FFFFFF;
         text-decoration: none;
@@ -1880,6 +1889,9 @@ textarea {
 }
 
 .pg-login button{
+	margin: auto;
+	justify-content: center;
+	display: flex;
 	clear: both;
 	font-family: 'Reem Kufi', sans-serif;
 	border: none;
